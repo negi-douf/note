@@ -45,6 +45,13 @@
     - また、CoffeeScriptと違い、文法が JSと同じ
     - TSの登場以降、ECMAScriptは毎年のように更新
 
+## TypeScriptのよくある誤解
+
+- JSとパフォーマンスは同じ  
+  なぜなら、結局ランタイム (実行エンジン) は JSのものだし、コンパイル時に最適化もしないから。
+- JSのイケてない仕様は修正されずそのままである
+  - `typeof()` に `null` を渡すと `object` が返ってくるとか
+
 ## 参考
 
 - [サバイバルTypeScript](https://typescriptbook.jp/)
